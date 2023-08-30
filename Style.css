@@ -1,136 +1,132 @@
 * {
-    max-width: 700px;
-    margin:auto;  }
-   
+  max-width: 700px;
+  margin: auto;
+}
+
 h1 {
-    font-size: 50px;
-    float: right;
-    font-family: Girly ;
-  }
-    
+  font-size: 50px;
+  float: right;
+  font-family: Girly;
+}
+
 @font-face {
-  font-family: Girly ;
+  font-family: Girly;
   src: url("/font/Baby\ Girly.otf");
 }
 
 @font-face {
-  font-family: firmas ;
+  font-family: firmas;
   src: url(/font/firmas.otf);
 }
 
-h2 { 
-    font-size: 40px;
-    font-family: firmas ; 
-  }
-     
-  div {
-    border: 10%;
-    border-color: rgb(0, 0, 0);
-    }
-  
-  #header {
-    height: 40px;
-    width: 100%;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(5,57,93,1) 20%, rgba(8,92,159,1) 34%, rgba(8,151,212,1) 58%, rgba(184,226,235,1) 100%);
-    background-color: rgb(62, 62, 235);
-    position: fixed;
-    z-index: 1;
-  }
-  
-  #title {
-    margin-left: 3%;
-  }
-  
-  #footer {
-    height: 55px;
-    width: 100%;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(5,57,93,1) 20%, rgba(8,92,159,1) 34%, rgba(8,151,212,1) 58%, rgba(184,226,235,1) 100%);
-    clear: both;
-    position: relative;
-  }
-  
-  .left {
-    height: 800px;
-    width: 25px;
-    background: rgb(18,6,20);
-    background: linear-gradient(90deg, rgba(18,6,20,1) 0%, rgba(82,5,93,1) 20%, rgba(102,8,159,1) 34%, rgba(175,100,224,1) 79%, rgba(218,184,235,1) 100%);
-    background-color: #1788f3;
-    float: left;
-    position: fixed;
-  }
-  
-  .right {
-    height: 1350px;
-    width: 25px;
-    background: rgb(18,6,20);
-    background: linear-gradient(90deg, rgba(18,6,20,1) 0%, rgba(82,5,93,1) 20%, rgba(102,8,159,1) 34%, rgba(175,100,224,1) 79%, rgba(218,184,235,1) 100%);
-    background-color: #1788f3;
-    float: right;
-    position: static
-   
-  
+h2 {
+  font-size: 40px;
+  font-family: firmas;
+}
 
-  }
-  
-  .stuff {
-    display: inline-block;
-    margin-top: 5%;
-    margin-left: 50px;
-    width: 75%;
-    height: 100px;
-  }
-  
-  p,
-  li { font-size: 110%;
-    font-family: 'Sacramento';
-    font-style: oblique;
-    line-height: 1.5
-  }
-  
-  .head {
-    font-size: 25px;
-    font-style: oblique;
-    margin-top: auto;
-    padding: auto;
-  }
-  
-  .eyes 
-    {
-      background-color: bisque;
-      color: red;
-      position: relative;
-      border-radius: 40%;
-      padding: 2%;
-      float: right;
-  }
+div {
+  border: 10%;
+  border-color: rgb(0, 0, 0);
+}
 
-  #name {
-    font-family: firmas ;
-    float: right ; 
-    margin-top: 1;
-    margin-right: 10%; 
-    color:azure
+#header {
+  height: 40px;
+  width: 100%;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(5, 57, 93, 1) 20%, rgba(8, 92, 159, 1) 34%, rgba(8, 151, 212, 1) 58%, rgba(184, 226, 235, 1) 100%);
+  background-color: rgb(62, 62, 235);
+  position: fixed;
+  z-index: 1;
+}
 
-  }
-  .link
-  
-  a {
-    color: black;
-    text-decoration: none;
+#title {
+  margin-left: 3%;
+}
+
+#footer {
+  height: 55px;
+  width: 100%;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(5, 57, 93, 1) 20%, rgba(8, 92, 159, 1) 34%, rgba(8, 151, 212, 1) 58%, rgba(184, 226, 235, 1) 100%);
+  clear: both;
+  position: relative;
+}
+
+.left {
+  height: 800px;
+  width: 25px;
+  background: rgb(18, 6, 20);
+  background: linear-gradient(90deg, rgba(18, 6, 20, 1) 0%, rgba(82, 5, 93, 1) 20%, rgba(102, 8, 159, 1) 34%, rgba(175, 100, 224, 1) 79%, rgba(218, 184, 235, 1) 100%);
+  background-color: #1788f3;
+  float: left;
+  position: fixed;
+}
+
+.right {
+  height: 1350px;
+  width: 25px;
+  background: rgb(18, 6, 20);
+  background: linear-gradient(90deg, rgba(18, 6, 20, 1) 0%, rgba(82, 5, 93, 1) 20%, rgba(102, 8, 159, 1) 34%, rgba(175, 100, 224, 1) 79%, rgba(218, 184, 235, 1) 100%);
+  background-color: #1788f3;
+  float: right;
+  position: static
+}
+
+.stuff {
+  display: inline-block;
+  margin-top: 5%;
+  margin-left: 50px;
+  width: 75%;
+  height: 100px;
+}
+
+p,
+li {
+  font-size: 110%;
+  font-family: 'Sacramento';
   font-style: oblique;
+  line-height: 1.5
+}
+
+.head {
+  font-size: 25px;
+  font-style: oblique;
+  margin-top: auto;
+  padding: auto;
+}
+
+.eyes {
+  background-color: bisque;
+  color: red;
+  position: relative;
+  border-radius: 40%;
+  padding: 2%;
+  float: right;
+}
+
+#name {
+  font-family: firmas;
+  float: right;
+  margin-top: 1;
+  margin-right: 10%;
+  color: azure
+}
+
+.link a {
+  color: black;
+  text-decoration: none;
+  font-style: oblique;
+}
+
+@media only screen and (max-width:430px) {
+
+  .left,
+  .right {
+    display: none;
   }
-  
-  @media only screen and (max-width:430px) 
-  {
-    .left,
-    .right {
-      display: none;
-    }
-    .stuff {
-      width: 100%;
-      margin-left: 50px;
-    }
+
+  .stuff {
+    width: 100%;
+    margin-left: 50px;
   }
-  
+}
